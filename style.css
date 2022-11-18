@@ -1,0 +1,120 @@
+/* Question 1 */
+
+.background{
+    width: 100%;
+    height: 800px;
+    border: 1px solid black;
+    background-image: url("food.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    margin-top: 20%;
+    color: brown;
+    font-size: 40px;
+}
+
+.menu{
+    width: 100px;
+    height: 25px;
+    background-color: chocolate;
+    border-radius: 10px;
+    border: none;
+    margin-left: 30%;
+
+}
+
+/* Questin 3 */
+
+.boxes{
+    width: 100%;
+    height: 350px;
+    display: flex;
+
+}
+
+.b{
+    align-items: center;
+    padding: 2%;
+    width: 200px;
+    height: 200px;
+    background-color: plum;
+    margin: 5%;
+    color: black;
+}
+
+@media (min-width: 360px) and (max-width: 720px) {
+    .boxes{
+        width: 100%;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+}
+
+/* Question 4 */
+
+.main{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    background-color: rgb(217, 255, 0);
+}
+
+.button{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blue; */
+    width: 150px;
+    margin-top: 8%;
+}
+.button1{
+    background-color:aqua;
+    border: none;
+    border-radius: 10px;
+    width: 50px;
+    height: 30px;
+}
+
+@media (min-width: 360px) and (max-width: 720px){
+    
+    .button{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 150px;
+        height: 80px;
+        margin-top: 10%;
+    }
+    .button1{
+        background-color:rgb(0, 60, 128);
+        border: none;
+        border-radius: 10px;
+        width: 60px;
+        height: 30px;
+        color: navajowhite;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1100px){
+    .button{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 150px;
+        height: 80px;
+        margin-top: 10%;
+    }
+    .button1{
+        background-color:red;
+        border: none;
+        border-radius: 10px;
+        width: 60px;
+        height: 30px;
+        color: navajowhite;
+}
+}
